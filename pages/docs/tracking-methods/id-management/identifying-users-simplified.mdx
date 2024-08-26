@@ -203,7 +203,7 @@ By calling `.identify()` at these specific points in user journeys, you would be
 
 **Call `.reset` upon logout or when an app leaves an authenticated-state**
 
-By calling `.reset()` at logout or when a user enters an unauthenticated-state (such as timing out), you generate a new `$device_id` for your user, ensuring that multiple users that are sharing a single device would not be incorrect considered as a single user tracking events with the same IDs.
+By calling `.reset()` at logout or when a user enters an unauthenticated-state (such as timing out), you generate a new `$device_id` for your user, ensuring that multiple users that are sharing a single device would not be incorrectly considered as a single user tracking events with the same IDs.
 
 **Track the unique identifier as a super property and user property to assist in troubleshooting**
 
